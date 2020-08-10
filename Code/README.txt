@@ -1,7 +1,7 @@
 ******************** 
 The page for
-https://www.cosc.brocku.ca/~ap14jl/A4/
-<!-- Ajay Patel / 5660055 / ap14jl / -->
+
+<!-- Ajay Patel -->
 
 
 ********************
