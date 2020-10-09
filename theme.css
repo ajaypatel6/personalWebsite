@@ -1,8 +1,16 @@
-<!-- Ajay Patel / 5660055 / ap14jl / https://www.cosc.brocku.ca/~ap14jl/A1/index.html -->
 
 img {
-	width: 150px;
+	width: 100px;
     margin: 0 0 10px 10px;
+}
+
+.img-box{
+	width: 125px;
+	float: middle;
+}
+
+.img-box img{
+	margin-left: auto;
 }
 
 p {
@@ -11,26 +19,17 @@ p {
 
 p2 { 	
 	margin: 4pt 12pt;
-	color : #7F99B1;
+	color : blue;
 }
 
 h1{
 	margin: 10pt 10pt;
+	font-size: 50pt;
 	font-family: "Vivaldi", "Comic Sans MS", cursive, sans-serif;
-	color : #7F99B1;
+	color : blueviolet;
 }
 
-h2 {
-	color:#0E2F44 ;
-	font-family: "Vivaldi", "Comic Sans MS", cursive, sans-serif;
-	background-color: #D1DCFF;
-	margin: 10pt 150pt;
-}
-h3 {
-	color: black;
-	margin : 10pt 10pt;
-	background-color:#98A3AC;
-}
+
 
 a {
 	border: 1px solid blue;
@@ -48,9 +47,13 @@ src: url('Everything.otf');
 
   }
 
-body { background-color: #B8CECD; }
+body { 
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg) no-repeat;
+}
 footer { position: middle; bottom: 0pt; left: 0pt; background-color: #D1DCFF; }
-header { background-color: #7F99B1; }
+header { background-color: darkslateblue; }
 
 header li { display: inline; }
 li>a { color: inherit; text-decoration: blue; }
@@ -64,7 +67,7 @@ color: black
 
 .iteme{
 	display: inline-block;
-color: black
+	color: black
 	background-color: #7F99B1;
 }
 .iteme:hover{
