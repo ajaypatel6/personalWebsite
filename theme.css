@@ -68,8 +68,8 @@ color: black
 .iteme{
 	display: inline-block;
 	color: black
-	background-color: #7F99B1;
 }
+
 .iteme:hover{
 	color:white;
 }
