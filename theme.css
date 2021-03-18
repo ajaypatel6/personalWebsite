@@ -1,0 +1,211 @@
+
+img {
+	width: 100px;
+
+}
+
+.img-box{
+	float: middle;
+	margin: 10pt 10pt;
+
+}
+
+.img-box img{
+	margin-left: auto;
+	float: left;
+    width:  50px;
+    height: 50px;
+	object-fit: cover;    margin: 0 0 10px 10px;
+	
+}
+
+.mail{
+	margin-left: 10px;
+	display:flex;
+	position: fixed;
+	margin-right: auto;
+	left:20px
+}
+
+.resume{
+	display:flex;
+	position: fixed;
+	margin-top: -75px;
+	left:270px
+
+}
+
+.background-box{
+	float: middle;
+}
+
+bulletin{
+
+}
+
+p {
+	margin: 4pt 12pt;
+}
+
+p2 { 	
+	margin: 4pt 12pt;
+	color : blue;
+}
+
+p3{
+	color : rgb(189, 46, 46);
+	margin: 20pt 10pt;
+	font-size: 15pt;
+}
+
+p4{
+	color : rgb(189, 46, 46);
+	margin: 20pt 10pt;
+	font-size: 15pt;	
+
+}
+
+h1{
+	margin: 10pt 0pt;
+	font-size: 32pt;
+	margin-block-start: auto;
+	margin-block-end: auto;
+	font-family: Garamond, serif;
+	color : #678cdd;
+}
+
+h2{
+	margin: 10pt 10pt;
+	font-size: 40pt;
+	
+	font-family: Garamond, serif;
+	color : #3949da;
+}
+
+h3{
+	margin: 10pt 10pt;
+	font-size: 15pt;
+	padding-right: 75%;
+
+	font-family: Garamond, serif;
+	color : #2cadc3;
+}
+
+h4{
+	margin: 10pt 10pt;
+	font-size: 20pt;
+	padding-right: 75%;
+
+	font-family: Garamond, serif;
+	color : #5dcdd1;
+}
+
+h5{
+	font-size: 20pt;
+
+	font-family: Garamond, serif;
+	color : #5dd16d;	
+}
+
+h6{
+	color : #2cadc3;
+	font-size: 15pt;	
+	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+nav {
+	border: 0.5px solid #94adbc;
+	background-color: #D1DCFF;
+}
+
+.column {
+	float: right;
+	width: 50%;
+  }
+/*
+https://unsplash.com/photos/eluzJSfkNCk mountains blue pic
+*/
+.tab { 
+	display:inline-block; 
+	margin-left: 40px; 
+}
+
+.container{	
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.inside{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(26,26,26,0.7),rgba(26,26,26,0.7)),url("../images/mountains.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+body { 
+	color: #fff;
+	background: #121212;
+
+	background-color:#ccffff;
+
+}
+
+footer {
+	 position: middle; 
+	 bottom: 0pt; 
+	 left: 0pt; 
+	}
+
+header { 
+	background-color: #b9c0eb; 
+}
+
+header li { display: inline; }
+li>a { color: inherit; text-decoration: blue; }
+
+.thumb {
+	font-size: 25pt;
+	
+	opacity: 0.8;
+	color: black;
+	position: absolute;
+
+}
+
+.thumb:hover{ 
+	background-color:lightskyblue;
+
+ } 
+
+.iteme{
+	display: inline-block;
+	color: black
+}
+
+.iteme:hover{
+	color:white;
+}
+
+div.transbox {
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.5;
+	margin-left: 466px; 
+
+  }
+  
+  div.transbox p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+  }
+
