@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 import Header from "./components/Header";
 import Description from "./components/Description";
+import Languages from "./components/Languages";
 import Technologies from "./components/Technologies";
 import Project from "./components/Project";
-
 import Footer from "./components/Footer";
 
 import "./index.css";
@@ -33,16 +33,13 @@ function App() {
     <>
       <Header />
       <Description></Description>
-      <h1>
-        <div className="title">My Projects</div>
-        <div className="underline"></div>
-      </h1>
+      <Languages></Languages>
       <Technologies
         filterItems={filterItems}
         technologies={technologies}
       ></Technologies>
       <Project items={projects}></Project>
-      Links at bottom? Links at bottom? Links at bottom? Links at bottom?
+      NEED some SPACE here
       <Footer></Footer>
     </>
   );

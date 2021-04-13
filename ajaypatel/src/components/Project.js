@@ -14,7 +14,7 @@ const Project = ({ items }) => {
               <div className="item-info">
                 <header>
                   <a href={github}>
-                    <h4>{name}</h4>
+                    <h4 className="filter-btn">{name}</h4>
                     {/* <img src={mainLogo} alt={github} className="smaller" /> */}
                   </a>
 
