@@ -1,4 +1,5 @@
 import React from "react";
+import Languages from "./Languages";
 
 const Description = () => {
   return (
@@ -14,6 +15,7 @@ const Description = () => {
           Looking forward to build my skills to becoming a Full-Stack Developer
           and dive into the next problem
         </p>
+        <Languages></Languages>
       </div>
     </>
   );

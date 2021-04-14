@@ -1,7 +1,7 @@
 import React from "react";
-import mainLogo from "../images/github.png";
+import { Link } from "react-router-dom";
 
-const Project = ({ items }) => {
+const Projects = ({ items }) => {
   return (
     <>
       <div className="section-center">
@@ -13,16 +13,16 @@ const Project = ({ items }) => {
 
               <div className="item-info">
                 <header>
-                  <a href={github}>
-                    <h4 className="filter-btn">{name}</h4>
-                    {/* <img src={mainLogo} alt={github} className="smaller" /> */}
-                  </a>
+                  <h4>{name}</h4>
+                  {/* <img src={mainLogo} alt={github} className="smaller" /> */}
 
                   <h4 className="price"> {technology}</h4>
                 </header>
                 <p className="item-text">{text}</p>
-                <h4>PIX for tech</h4>
-                <button className="btn"> SEE MORE </button>
+
+                <Link to={`/project/${name}`} className="btn good-btn">
+                  Details about {name}
+                </Link>
               </div>
             </article>
           );
@@ -32,4 +32,4 @@ const Project = ({ items }) => {
   );
 };
 
-export default Project;
+export default Projects;

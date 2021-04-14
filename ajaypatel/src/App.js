@@ -1,15 +1,24 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// app = home
 
+// pages
+import Error from "./pages/Error";
+import SingleProject from "./pages/SingleProject";
+
+//components
 import Header from "./components/Header";
 import Description from "./components/Description";
-import Languages from "./components/Languages";
 import Technologies from "./components/Technologies";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
+//css
 import "./index.css";
 
+//projects data
 import items from "./data/data";
+
 const allTechnologies = [
   "all",
   ...new Set(items.map((item) => item.technology)),
@@ -28,19 +37,27 @@ function App() {
     setProjects(newItems);
   };
 
-  console.log(technologies);
   return (
     <>
-      <Header />
-      <Description></Description>
-      <Languages></Languages>
-      <Technologies
-        filterItems={filterItems}
-        technologies={technologies}
-      ></Technologies>
-      <Project items={projects}></Project>
-      NEED some SPACE here
-      <Footer></Footer>
+      <Router>
+        <Description></Description>
+        <Switch>
+          <Route exact path="/">
+            <Technologies
+              filterItems={filterItems}
+              technologies={technologies}
+            ></Technologies>
+            <Projects items={projects}></Projects>
+          </Route>
+          <Route path="/project/:name">
+            <SingleProject items={projects} />
+          </Route>
+          <Route path="*">
+            <Error />
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </Router>
     </>
   );
 }
