@@ -15,8 +15,6 @@ const Projects = ({ items }) => {
                 <header>
                   <h4>{name}</h4>
                   {/* <img src={mainLogo} alt={github} className="smaller" /> */}
-
-                  <h4 className="price"> {technology}</h4>
                 </header>
                 <p className="item-text">{text}</p>
 

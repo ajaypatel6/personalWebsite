@@ -18,6 +18,11 @@ const SingleProject = ({ items }) => {
 
   return (
     <>
+      <h1>
+        <div className="title">{name}</div>
+        <div className="underline"></div>
+      </h1>
+
       <div className="project-center">
         {items.map((project) => {
           if (project.name === name) {
@@ -43,15 +48,10 @@ const SingleProject = ({ items }) => {
             } = project;
             return (
               <article key={id} className="project-item">
+                <Link to="/" className="btn good-btn">
+                  Go back
+                </Link>
                 <div className="item-info">
-                  <Link to="/" className="btn filter-btn">
-                    back home
-                  </Link>
-                  <header>
-                    <h4>{name}</h4>
-
-                    {/* <img src={mainLogo} alt={github} className="smaller" /> */}
-                  </header>
                   <h4 className="item-text">{longtext}</h4>
                   <p>{longtech}</p>
                   <img src={mantispic1} className="mantis-img" />

@@ -5,7 +5,7 @@ const Description = () => {
   return (
     <>
       <div className="description-container">
-        <h3>Ajay Description (please think more about this)</h3>
+        <h2 className="name-color">Ajay Patel</h2>
         <p>
           Currently located in Hamilton, Ontario and Graduated in October 2020
           with a Computer Science Degree
@@ -15,8 +15,8 @@ const Description = () => {
           Looking forward to build my skills to becoming a Full-Stack Developer
           and dive into the next problem
         </p>
-        <Languages></Languages>
       </div>
+      <Languages></Languages>
     </>
   );
 };

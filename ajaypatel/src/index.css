@@ -177,15 +177,16 @@ Menu
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
   display: grid;
   gap: 3rem 2rem;
-  justify-items: center;
   padding-bottom: 2em;
+  /* transparency */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
 }
 .menu-item {
   display: grid;
-  gap: 1rem 2rem;
   max-width: 30rem;
   margin-bottom: 0.5rem;
 }
@@ -266,8 +267,8 @@ FooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooter
 }
 
 .languagesShrink {
-  max-width: 4%;
-  max-height: 4%;
+  max-width: 5%;
+  max-height: 5%;
   display: block; /* remove extra space below image */
 }
 
@@ -292,8 +293,7 @@ FooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooter
 
 .description-container {
   display: flex;
-  align-items: left;
-  background-color: #04f7ff;
+  justify-content: center;
 }
 
 .footer-img {
@@ -305,10 +305,10 @@ FooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooter
   margin-right: 3em;
 }
 .project-center {
+  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
+  padding-bottom: 2em;
 }
 
 .project-item {
@@ -344,4 +344,39 @@ FooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooterFooter
 .good-btn:hover {
   background: blue;
   color: var(--clr-white);
+}
+
+.name-color {
+  color: maroon;
+}
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inside {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(26, 26, 26, 0.7),
+      rgba(26, 26, 26, 0.7)
+    ),
+    url("../src/images/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+div.transbox {
+  margin: 30px;
+  border: 1px solid black;
+  opacity: 0.5;
+  margin-left: 466px;
+}
+
+.language-stack {
+  color: rgb(206, 206, 6);
 }

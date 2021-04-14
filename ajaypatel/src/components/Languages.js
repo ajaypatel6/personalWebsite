@@ -16,14 +16,14 @@ const Languages = () => {
   return (
     <>
       <div className="languages-container">
-        Front-end
+        <h4 className="language-stack">Frontend</h4>
         <img src={javascript} alt="javascript" className="languagesShrink " />
         <img src={react} alt="react" className="languagesShrink " />
-        Back-end
+        <h4 className="language-stack">Backend</h4>
         <img src={java} alt="java" className="languagesShrink" />
         <img src={kotlin} alt="kotlin" className="languagesShrink" />
         <img src={python} alt="python" className="languagesShrink " />
-        Database
+        <h4 className="language-stack">Database</h4>
         <img src={mongodb} alt="mongodb" className="languagesShrink " />{" "}
         <img src={mysql} alt="mysql" className="languagesShrink " />
         <img src={firestore} alt="firestore" className="languagesShrink" />
