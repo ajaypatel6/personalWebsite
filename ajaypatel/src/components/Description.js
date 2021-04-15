@@ -6,14 +6,17 @@ const Description = () => {
     <>
       <div className="description-container">
         <h2 className="name-color">Ajay Patel</h2>
-        <p>
-          Currently located in Hamilton, Ontario and Graduated in October 2020
-          with a Computer Science Degree
+        <p className="styler">
+          Currently located in Hamilton, Ontario after graduating in October
+          2020 with a Bachelors of Computer Science
         </p>
-        <p>I have interests in Gaming, Fitness and Learning</p>
-        <p>
-          Looking forward to build my skills to becoming a Full-Stack Developer
-          and dive into the next problem
+        <p className="styler">
+          I have interests in Gaming, Fitness and Learning new technologies,
+          currently learning React
+        </p>
+
+        <p className="styler">
+          Looking forward to build my skills and become a Full-Stack Developer
         </p>
       </div>
       <Languages></Languages>

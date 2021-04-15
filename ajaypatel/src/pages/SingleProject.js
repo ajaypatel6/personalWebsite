@@ -51,11 +51,15 @@ const SingleProject = ({ items }) => {
                 <Link to="/" className="btn good-btn">
                   Go back
                 </Link>
+
                 <div className="item-info">
                   <h4 className="item-text">{longtext}</h4>
-                  <p>{longtech}</p>
+                  <h4>{longtech}</h4>{" "}
+                  <a className="item-text filter-btn" href={github}>
+                    Link to github
+                  </a>
                   <img src={mantispic1} className="mantis-img" />
-                  <img src={mantispic2} className="mantis-img" />
+                  <img src={mantispic2} className="mantis-img " />
                   <img src={mantispic3} className="mantis-img" />
                   <img src={mantispic4} className="mantis-img" />
                   <img src={mantispic5} className="mantis-img" />
@@ -65,7 +69,7 @@ const SingleProject = ({ items }) => {
                     <img src={longpics3} className="project-img" />
                     <img src={longpics4} className="project-img" />
                     <img src={longpics5} className="project-img" />
-                  </div>{" "}
+                  </div>
                 </div>
               </article>
             );

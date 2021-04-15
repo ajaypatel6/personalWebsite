@@ -13,7 +13,7 @@ const Projects = ({ items }) => {
 
               <div className="item-info">
                 <header>
-                  <h4>{name}</h4>
+                  <h4 className="project-title">{name}</h4>
                   {/* <img src={mainLogo} alt={github} className="smaller" /> */}
                 </header>
                 <p className="item-text">{text}</p>

@@ -1,3 +1,8 @@
+import connect4 from "../images/longDescription/Connect-4.jpg";
+import med from "../images/longDescription/medi.jpg";
+
+import book from "../images/longDescription/book.jpg";
+
 // meditation
 import mDash from "../images/longDescription/Meditation/mDash.jpg";
 import mStats from "../images/longDescription/Meditation/mStats.jpg";
@@ -22,8 +27,8 @@ const projects = [
     name: "Meditation Timer",
     technology: "Android",
     github: "https://github.com/ajaypatel6/Meditation",
-    image:
-      "https://user-images.githubusercontent.com/68916597/109037324-990ffb00-7698-11eb-9766-60102014f525.jpg",
+    image: med,
+
     text: "Meditation Timer and Stats ",
     longtext:
       "A meditation timer for that allows customizable meditation lengths that records overall statistics on your phones local storage.    ",
@@ -81,7 +86,7 @@ const projects = [
     longpics4: "",
     longpics5: "",
     mantispic1: d1,
-    mantispic2: "",
+    mantispic2: token,
     mantispic3: code,
     mantispic4: "",
     mantispic5: results,
@@ -91,8 +96,8 @@ const projects = [
     id: 5,
     name: "Reading Speed Tracker",
     technology: "School Projects/ Other",
-    github: "https://github.com/ajaypatel6/",
-    image: "",
+    github: "https://github.com/ajaypatel6/PDFSpeedReading",
+    image: book,
     text: "Reading speed tracker with books and history",
     longtext:
       "Desktop application that allows user to select a book and the page range for which they have read. Calculates the Words per minute of the range. Records statistics graphically.",
@@ -103,8 +108,9 @@ const projects = [
     id: 6,
     name: "Connect 4 with Minimax",
     technology: "School Projects/ Other",
-    github: "https://github.com/ajaypatel6/",
-    image: "",
+    github:
+      "https://github.com/ajaypatel6/SchoolProjects/tree/main/Connect4Minimax",
+    image: connect4,
     text: "Console based connect using minimax algorithm",
     longtext:
       "Project for Artificial Intelligence course in School. Can play Connect 4 with a computer with varying difficulties because of Minimax",

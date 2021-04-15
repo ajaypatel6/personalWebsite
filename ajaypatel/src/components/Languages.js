@@ -15,18 +15,54 @@ import mysql from "../images/techImages/mysql.png";
 const Languages = () => {
   return (
     <>
-      <div className="languages-container">
+      <div className="languages-container ">
         <h4 className="language-stack">Frontend</h4>
-        <img src={javascript} alt="javascript" className="languagesShrink " />
-        <img src={react} alt="react" className="languagesShrink " />
+        <img
+          src={javascript}
+          alt="javascript"
+          className="languagesShrink "
+          title="Javascript"
+        />
+
+        <img
+          src={react}
+          alt="react"
+          className="languagesShrink"
+          title="React.js"
+        />
         <h4 className="language-stack">Backend</h4>
-        <img src={java} alt="java" className="languagesShrink" />
-        <img src={kotlin} alt="kotlin" className="languagesShrink" />
-        <img src={python} alt="python" className="languagesShrink " />
+        <img src={java} alt="java" className="languagesShrink" title="Java" />
+        <img
+          src={kotlin}
+          alt="kotlin"
+          className="languagesShrink"
+          title="Kotlin"
+        />
+        <img
+          src={python}
+          alt="python"
+          className="languagesShrink "
+          title="Python"
+        />
         <h4 className="language-stack">Database</h4>
-        <img src={mongodb} alt="mongodb" className="languagesShrink " />{" "}
-        <img src={mysql} alt="mysql" className="languagesShrink " />
-        <img src={firestore} alt="firestore" className="languagesShrink" />
+        <img
+          src={mongodb}
+          alt="mongodb"
+          className="languagesShrink "
+          title="MongoDB"
+        />
+        <img
+          src={mysql}
+          alt="mysql"
+          className="languagesShrink "
+          title="MySQL"
+        />
+        <img
+          src={firestore}
+          alt="firestore"
+          className="languagesShrink"
+          title="Firestore"
+        />
       </div>
     </>
   );
